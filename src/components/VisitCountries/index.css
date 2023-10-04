@@ -1,0 +1,98 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161624;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.app-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.countries-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f2f;
+  height: 40vh;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  overflow-y: scroll;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.visited-countries-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 0px;
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
+  margin-left: 30px;
+}
+
+.visited-country-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5px;
+  max-width: 350px;
+  max-height: 300px;
+  background-color: #1f1f2f;
+}
+
+.country-flag {
+  height: 70%;
+  width: 100%;
+}
+
+.visited-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 20%;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: normal;
+  margin: 5px;
+}
+
+.remove-button {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid #94a3b8;
+  margin: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.no-visited-country {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600;
+  margin: 5px;
+  align-self: center;
+}
